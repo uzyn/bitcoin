@@ -750,7 +750,7 @@ static UniValue getbalance(const JSONRPCRequest& request)
                 RPCExamples{
             "\nThe total amount in the wallet with 0 or more confirmations\n"
             + HelpExampleCli("getbalance", "") +
-            "\nThe total amount in the wallet at least 6 blocks confirmed\n"
+            "\nThe total amount in the wallet at least 6 confirmations\n"
             + HelpExampleCli("getbalance", "\"*\" 6") +
             "\nAs a JSON-RPC call\n"
             + HelpExampleRpc("getbalance", "\"*\", 6")
