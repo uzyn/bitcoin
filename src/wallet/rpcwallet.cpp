@@ -748,7 +748,7 @@ static UniValue getbalance(const JSONRPCRequest& request)
             "amount              (numeric) The total amount in " + CURRENCY_UNIT + " received for this wallet.\n"
                 },
                 RPCExamples{
-            "\nThe total amount in the wallet with 1 or more confirmations\n"
+            "\nThe total amount in the wallet with 0 or more confirmations\n"
             + HelpExampleCli("getbalance", "") +
             "\nThe total amount in the wallet at least 6 blocks confirmed\n"
             + HelpExampleCli("getbalance", "\"*\" 6") +
